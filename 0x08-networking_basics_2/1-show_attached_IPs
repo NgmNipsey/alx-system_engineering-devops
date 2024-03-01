@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Get all active IPv4 addresses using hostname command
+
+hostname --all-ip-addresses || hostname -I
