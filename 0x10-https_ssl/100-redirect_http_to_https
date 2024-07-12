@@ -39,7 +39,7 @@ frontend ngmnipsey-tech-frontend
         default_backend ngmnipsey-tech-backend
 
 frontend ngmnipsey-tech-frontend
-        bind *:443 ssl crt /etc/haproxy/certs/www.ngmnipsey.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/ngmnipsey.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend ngmnipsey-tech-backend
 
